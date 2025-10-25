@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Adaugă întrebări</title>
+</head>
+<body>
+  <h1>Adaugă întrebare nouă</h1>
+
+  <label>Capitol / Lecție:</label>
+  <input type="text" id="chapter" placeholder="Ex: Cap. 1 – Matematică de bază"><br><br>
+
+  <label>Întrebare:</label>
+  <input type="text" id="question" placeholder="Scrie întrebarea aici"><br><br>
+
+  <label>Răspuns A:</label>
+  <input type="text" id="a"><br>
+  <label>Răspuns B:</label>
+  <input type="text" id="b"><br>
+  <label>Răspuns C:</label>
+  <input type="text" id="c"><br>
+  <label>Răspuns D:</label>
+  <input type="text" id="d"><br><br>
+
+  <label>Răspuns corect (a/b/c/d):</label>
+  <input type="text" id="correct"><br><br>
+
+  <button onclick="saveQuestion()">Salvează întrebarea</button>
+
+  <hr>
+  <h2>Întrebări salvate:</h2>
+  <ul id="questionList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
